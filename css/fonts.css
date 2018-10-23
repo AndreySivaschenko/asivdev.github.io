@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Geometria-ExtraBold;
+  src: local("Geometria-ExtraBold");
+  src: url(../fonts/Geometria-ExtraBold.ttf); }
+
+@font-face {
+  font-family: Geometria;
+  src: local("Geometria");
+  src: url(../fonts/Geometria.ttf); }
+
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: local("OpenSans-SemiBold");
+  src: url(../fonts/OpenSans-SemiBold.ttf); }
