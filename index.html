@@ -3,14 +3,53 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Personal Site</title>
-	<link rel="stylesheet" type="text/css" href="css/libs.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-
 </head>
 <body>
-	<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis placeat architecto quas inventore atque officiis delectus vitae sapiente facilis laboriosam rem aliquid cumque aut consequuntur, ut nisi eum saepe minima?</h3>
+<!---Head_start-->
 
-	<script src="js/libs.min.js"></script>
-	<script src="js/command.js"></script>
+<header class="head col-lg-12 clearfix">
+	<!--Head_Menu_start-->
+	<nav class="navbar navbar-expand-lg navbar-dark custom-nav fixed-top">
+		<div class="container">
+			<a class="navbar-brand logo" heref="/">
+				<h2>ASiv.Dev</h2>
+			</a>
+			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+			 	<div class="icon-navbar-toggler">
+			 		<div class="one"></div>
+			 		<div class="two"></div>
+			 		<div class="three"></div>
+			 	</div>
+			 </button>
+			<div class="collapse navbar-collapse head_nav" id="navbarMenu">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">My Skills</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">My Wokrs</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">My Blogs</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Client Says</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Contact Me</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>	<!--Head_Menu_end-->
+	
+	<div class="header_content">
+		<h1>Sivashchenko Andrey</h1>
+		<h3>Ui/Ux Developer</h3>
+	</div>
+	<div class="header_end">
+			<svg fill="none" height="50" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="50" xmlns="http://www.w3.org/2000/svg">
+				<polyline id="shevron_one" points="7 13 12 18 17 13"/>
+				<polyline id="shevron_two" points="7 6 12 11 17 6"/>
+			</svg>
+		</div>
+	
+</header><!--Head_end-->
+<script src="js/libs.min.js"></script>
 </body>
 </html>
