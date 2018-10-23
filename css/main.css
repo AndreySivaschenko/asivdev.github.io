@@ -291,7 +291,7 @@ template {
 .head {
   display: table;
   height: 100vh;
-  background: url(/img/screen1_bg.png) no-repeat 50% 50%;
+  background: url(../img/screen1_bg.png) no-repeat 50% 50%;
   -webkit-background-size: cover;
           background-size: cover;
   color: #fff; }
